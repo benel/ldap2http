@@ -1,0 +1,13 @@
+{ "connection": {
+	"url":"ldap://ldap.acme.com/",
+	"bindDN":"uid=wileCoyote,ou=people,dc=acme,dc=com",
+	"bindCredentials":"zbhw23"
+},
+"searchOptions": {
+	"scope":"sub",
+  	"filter":"(dinner=roadRunner)",
+  	"attributes":"Name"
+},
+"base":"ou=people,dc=acme,dc=com",
+"port":1337
+}
