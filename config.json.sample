@@ -3,6 +3,7 @@
 	"bindDN":"uid=wileCoyote,ou=people,dc=acme,dc=com",
 	"bindCredentials":"zbhw23"
 },
+"origin":"http://tex.avery.com",
 "searchOptions": {
 	"scope":"sub",
   	"filter":"(dinner=roadRunner)",

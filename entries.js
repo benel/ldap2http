@@ -8,7 +8,10 @@ var conf = JSON.parse(
 
 http.createServer(function (req, res) {
   
-  res.writeHead(200, {'Content-Type': 'application/json'});
+  res.writeHead(200, {
+    'Content-Type': 'application/json',
+    'Access-Control-Allow-Origin': conf.origin
+  });
   
   var client = ldap.createClient(conf.connection);
 
